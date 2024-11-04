@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: black;
+    /* z-index:-2; */
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/74d734ca-0eab-4cd9-871f-bca01823d872/web/IN-en-20241021-TRIFECTA-perspective_2277eb50-9da3-4fdf-adbe-74db0e9ee2cf_large.jpg");
+    height: 650px;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.main .box {
+    height: 650px;
+    position: absolute;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+    
+    padding: 20px;
+    position: relative;
+
+}
+
+.hero {
+    
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 50px;
+    row-gap: 20px;
+    position: relative;
+
+}
+
+div.hero>:first-child {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+div.hero>:nth-child(2) {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+
+}
+div.hero>:nth-child(3) {
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+.main input{
+    padding:10px 23px;
+    border-radius: 4px;
+    font-size: 15px;
+    position: relative;
+    z-index: 2;
+    width:250px;
+    height:27px;
+    
+}
+
+.btn{
+    background-color: rgb(217, 13, 13);
+    border-radius: 4px;
+    color:white;
+    cursor:pointer;
+
+
+}
+.trans,input{
+    background-color: rgba(23,23,23,0.4);
+    border:1px solid white;
+    color:white;
+    
+    
+}
+.red-sm-btn{
+    padding:9px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+nav button{
+    padding: 5px 30px;
+    font-size: 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sep{
+    height: 6px;
+    color: #000000;
+    
+    background-color:#4d4c4c ;
+    border: 1px solid #4d4c4c;
+}
+
+
+
+.hero-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 30px; */
+    column-gap: 8px;
+}
+
+
+.container .box{
+    height:400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    position: relative;
+  
+}
+.box h1{
+    font-size: 40px;
+    font-weight: 600;
+    width:450px;
+
+}
+.box1 ,.box3{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+.box h2{
+    font-size:18px;
+    font-weight: 400;
+    width:450px;
+}
+.box1 img, .box3 img {
+    position:absolute;
+    z-index:10;
+    top:0;
+}
+
+.box3 video{
+    position: relative;
+    bottom: 74px;
+    right: -84px;
+    width: 350px;
+
+}
+.box1 video{
+    position: relative;
+    width: 390px;
+    top: -15px;
+    right: -74px;
+
+}
+
+.faq{
+    height:900px;
+    text-align: center;
+
+}
+.question{
+    width:70vw;
+    height:70px;
+    background-color: rgb(67, 66, 66);
+    margin: 15px auto;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
+    margin-top:30px
+
+}
+h4{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.button{
+    display:flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 50px;
+}
+.button input{
+    padding:10px 23px;
+    border-radius: 4px;
+    font-size: 15px;
+    width:250px;
+    height:35px;
+}
+.button button{
+    background-color: rgb(217, 13, 13);
+    border-radius: 4px;
+    color:rgb(235, 232, 232);
+    cursor:pointer;
+    padding:10px 18px;
+    font-size: 15px;
+
+}
+.line h4{
+    font-size: 22px;
+    font-weight: 600;
+    margin:auto;
+}
+.footer{
+    height:600px;
+    width:70vw;
+    color:white;
+    margin:auto;
+}
+.foot{
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    column-gap: 100px;
+    justify-items: center;
+    align-items: center;
+}
+.line2{
+    font-size:18px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.foot span{
+    display: inline-block;
+    width:180px;
+    cursor:pointer;
+
+}
+.foot span:hover{
+    color:rgb(132, 131, 131)
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
